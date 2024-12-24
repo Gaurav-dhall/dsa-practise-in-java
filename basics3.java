@@ -1,4 +1,5 @@
 
+
 public class basics3 {
     public static void main(String[] args) {
         // int[]marks={12,32,56};

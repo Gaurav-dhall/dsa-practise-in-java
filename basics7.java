@@ -1,3 +1,4 @@
+
 public class basics7 {
     public static void main(String[] args) {
        int day=45;//1-monday 2-tuesday.....7-sunday
