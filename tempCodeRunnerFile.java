@@ -1,1 +1,2 @@
- System.out.print("1");
+ //   int c=  learnpq.poll();
+    //   System.out.println(c);
