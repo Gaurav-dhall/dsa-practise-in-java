@@ -9,9 +9,9 @@ public class jcfarraydeq {
         arrdeq.offer(145);
         System.out.println(arrdeq);
 
-     System.out.println(   arrdeq.peekLast());
-     System.out.println(   arrdeq.peekFirst());
-     System.out.println(   arrdeq.peek());
+     System.out.println(arrdeq.peekLast());
+     System.out.println(arrdeq.peekFirst());
+     System.out.println(arrdeq.peek());
 
      System.out.println(arrdeq.poll());
      System.out.println(arrdeq.pollFirst());
