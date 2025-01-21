@@ -8,13 +8,32 @@ public class jcfMap {
         students.put("two", 2);
         students.put("three", 3);
 
-        if(!students.containsKey("one")){
-            students.put("one", 420);//putIfAbsent shows this behaviour only
-        }
+        students.put("four", 4);
+        students.put("five", 5);
+        // System.out.println(students);
 
-        students.putIfAbsent("one", 102);//puts only if the key is absent other wise doesnt override
-        
+        // //iteration of entry set (inside for loop datat tyepe identifier then set to be iterated)
+        // for(Map.Entry<String,Integer> e: students.entrySet()){
+        //     System.out.println(e);
+        //     System.out.println(e.getKey());
+        //     System.out.println(e.getValue());
+        // }
 
+        //iteration of key set --> data type identifier followed by set 
+        // for(String key: students.keySet()){
+        //     System.out.println(key);
+        // }
+
+        // // iteration of value set 
+
+        // for(Integer value : students.values()){
+        //     System.out.println(value);
+        // }
+
+        System.out.println(students.containsValue(15));
+        System.out.println(students.isEmpty());
+        students.clear();
         System.out.println(students);
+
     }
 }
